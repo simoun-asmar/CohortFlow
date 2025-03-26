@@ -307,3 +307,12 @@ ORDER BY cohort_month;
 📊 Below, you can see the visualization created directly in Databricks, showing the number of new customers acquired each month.
 
 ![Cohort Size by Month](../dashboard/Cohort_size_by_month.png)
+
+
+---
+
+🙏 **Thank You!**
+
+Thank you for taking the time to explore this cohort analysis workflow.  
+I hope you found the process insightful and the analysis meaningful.  
+Feel free to reach out or connect if you have any thoughts, questions, or feedback!

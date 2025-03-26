@@ -48,3 +48,5 @@ After the sync completed, I went to Databricks and confirmed that the `ecom_orde
 ---
 
 With this, the connection between BigQuery → Fivetran → Databricks was successfully established. Now I can run queries and perform cohort analysis inside Databricks using the synced data.
+
+📊 [Next Step: Start Cohort Analysis Workflow →](cohort_analysis_workflow.md)

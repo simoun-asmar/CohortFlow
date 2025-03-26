@@ -45,3 +45,5 @@ Then I clicked **Create table** to complete the process.
 ---
 
 The data is now successfully uploaded to BigQuery and ready for the next steps in the data pipeline setup (like Fivetran integration).
+
+⏭️ [Next Step: Set Up Fivetran Permissions →](fivetran_permission_setup.md)

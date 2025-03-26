@@ -51,3 +51,5 @@ I added the copied Fivetran service account and assigned it the **BigQuery Admin
 ---
 
 ✅ Now Fivetran is authorized to access the project and the specific dataset in BigQuery. The setup is complete and ready for syncing.
+
+⏭️ [Next Step: Connect Databricks to Fivetran →](databricks_connection.md)

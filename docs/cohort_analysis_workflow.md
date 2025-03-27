@@ -210,8 +210,7 @@ SELECT
   cohort_month,
   COUNT(*) AS total_customers,
   ROUND(COUNT(customer_id) FILTER (
-    WHERE months_between_first_and_seconde_order = 0 
-       OR months_between_first_and_seconde_order = 1
+    WHERE months_between_first_and_seconde_order <= 1
   ) / COUNT(DISTINCT customer_id), 2) AS retention_rate_1m,
   ROUND(COUNT(customer_id) FILTER (
     WHERE months_between_first_and_seconde_order <= 2

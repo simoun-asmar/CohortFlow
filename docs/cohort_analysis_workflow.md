@@ -225,6 +225,15 @@ ORDER BY cohort_month;
 
 📊 Below, you can see the visualization created directly in Databricks, showing retention rates across customer cohorts over time.
 
+From the visualization we can tell that:
+
+- **May and June 2024 cohorts** show the **highest retention rates** across all time thresholds (1-month, 2-months, and 3-months), each consistently hitting the 1.0 mark, meaning **100% of customers returned** within 3 months.
+- For the **1-month retention**, **May 2024** had a slightly higher retention than previous cohorts, showing a steady increase compared to January–March.
+- The difference between **1-month** and **3-month retention** is relatively small for the later cohorts (April to June), indicating **strong short-term and long-term engagement**.
+- In contrast, **earlier cohorts (January–February 2024)** had noticeably lower retention, especially at the 1-month mark, suggesting weaker immediate re-engagement during that period.
+
+These trends may reflect improved marketing strategies, better product offerings, or seasonal influences introduced in Q2 2024.
+
 ![Retention Rate by Cohort](../dashboard/Retention_rate_by_cohort.png)
 
 ## 📌 6. Repeat Purchase Rate by Cohort
@@ -273,6 +282,15 @@ ORDER BY cohort_month;
 
 📊 Below, you can see the visualization created directly in Databricks, showing repeat purchase behavior across cohorts.
 
+From the visualization we can tell that:
+
+- 🟦 The **2nd order repeat rate** remains consistently high across all cohorts, generally above **0.95**, showing strong likelihood that customers who make a first purchase are very likely to return at least once.
+- 🟧 The **3rd order repeat rate** begins slightly lower and trends downward over time. This suggests a gradual drop-off in continued engagement past the second purchase.
+- 🟩 The **4th order repeat rate** shows a more noticeable **decline**, especially for the more recent cohorts (May–June 2024), indicating fewer customers are reaching high levels of repeat purchasing.
+- 📉 Overall, the trend shows **early customer retention is strong**, but **long-term loyalty (3rd and 4th orders)** requires improvement.
+
+These insights can help guide re-engagement strategies focused on converting 2nd-time buyers into long-term repeat customers.
+
 ![Repeat Purchase Rates by Cohort](../dashboard/Repeat_purchase_rates_by_cohort.png)
 
 ## 📌 7. Cohort Size by Month
@@ -304,6 +322,14 @@ GROUP BY cohort_month
 ORDER BY cohort_month;
 ```
 📊 Below, you can see the visualization created directly in Databricks, showing the number of new customers acquired each month.
+
+From the visualization we can tell that:
+
+- 📈 **January 2024** shows the highest number of new customers, making it the largest cohort by volume.
+- 📉 The cohort size **decreases progressively** in each subsequent month.
+- This decline could indicate reduced acquisition efforts, seasonal trends, or lower marketing reach over time.
+
+Tracking cohort sizes is essential to understand the impact of acquisition strategies and their consistency month over month.
 
 ![Cohort Size by Month](../dashboard/Cohort_size_by_month.png)
 
